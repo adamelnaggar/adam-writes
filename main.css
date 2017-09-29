@@ -1,0 +1,125 @@
+body {
+	padding-top: 20px;
+	padding-left: 30px;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	width: 70%;
+	line-height: 130%;
+	color: #333;
+	padding-bottom: 60px;
+	margin:auto;
+}
+
+div, p {
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+a {
+	color: #FF6138;
+}
+
+.blue {
+	color:#18bff7;
+}
+
+.intro {
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	color: #18bff7;
+}
+
+h1 {
+	font-weight: 900!important;
+}
+
+.email {
+	padding-top: 40px;
+	font-size: 50px;
+}
+
+.testimonials, .clients {
+	display: none;
+}
+
+.fa {
+	font-size: 50px!important;
+}
+
+.social {
+	padding-top: 40px;
+}
+a .fa-linkedin-square {
+	color: #0077B5;
+}
+a .fa-twitter {
+	color: #00aced;
+}
+
+.fa-twitter {
+	margin-right: 10px;
+}
+
+li {
+	padding-top: 3px;
+	padding-bottom:3px;
+}
+
+ @media only screen and (max-width: 640px)
+ {
+
+body {
+	padding-left:0;
+	margin:10px;
+	font-size: 16px;
+}
+
+.intro {
+	font-size: 20px;
+}
+
+.email {
+	font-size: 27px;
+}
+
+}
+
+@media only screen and (max-width:745px)
+ {
+
+body {
+	width: 95%;
+}
+.fa-quote-left {
+	display:none!important;
+}
+}
+
+.quotes {
+	padding: 0;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+blockquote p {
+  display: inline;
+  font-style: italic;
+  font-size:80%;
+}
+blockquote p span {
+	font-style:normal;
+}
+.fa-quote-left {
+	font-size: 15px !important;
+	position: relative;
+	bottom: 10px;
+	padding-right: 10px;
+}
+
+img {
+	padding-top: 40px;
+	width: 80%;
+}
