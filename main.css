@@ -49,12 +49,15 @@ h1 {
 .social {
 	padding-top: 40px;
 }
-.fa-linkedin-square {
+a .fa-linkedin-square {
 	color: #0077B5;
 }
-.fa-twitter {
-	padding-right: 10px;
+a .fa-twitter {
 	color: #00aced;
+}
+
+.fa-twitter {
+	margin-right: 10px;
 }
 
 li {
