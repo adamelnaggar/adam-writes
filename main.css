@@ -56,8 +56,8 @@ a .fa-linkedin-square {
 a .fa-twitter {
 	color: #00aced;
 }
-.fa-twitter {
-	margin-right: 10px;
+a[href*="twitter"] {
+	margin-right:15px;
 }
 li {
 	padding-top: 3px;
