@@ -34,7 +34,7 @@ a {
 	font-size: 35px;
 	color: #18bff7;
 }
-h1 {
+h1, .email {
 	font-weight: 900!important;
 }
 .email {
