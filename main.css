@@ -4,50 +4,51 @@ body {
 	font-family: 'Merriweather', serif;
 	font-size: 20px;
 	width: 70%;
-	line-height: 130%;
+	line-height: 160%;
 	color: #333;
 	padding-bottom: 60px;
 	margin:auto;
 }
-
 div, p {
 	margin-top: 10px;
-	padding-top: 20px;
+	padding-top: 30px;
 }
-
 a {
+	border-bottom: 2px solid #FF6138;
+	color: #18bff7;
+	text-decoration: none;
+	font-style:italic;
+}
+.email a {
 	color: #FF6138;
+	text-decoration: underline;
+	border-bottom:none;
+	font-style:normal;
+	font-family: 'Lato', sans-serif;
 }
-
-.blue {
-	color:#18bff7;
+.social a {
+	border-bottom: none;
 }
-
 .intro {
 	font-family: 'Lato', sans-serif;
 	font-size: 35px;
 	color: #18bff7;
 }
-
 h1 {
 	font-weight: 900!important;
 }
-
 .email {
-	padding-top: 40px;
+	padding-top: 60px;
 	font-size: 50px;
 }
-
 .testimonials, .clients {
 	display: none;
 }
-
 .fa {
-	font-size: 50px!important;
+	font-size: 30px!important;
 }
-
 .social {
-	padding-top: 40px;
+	padding-top: 60px;
 }
 a .fa-linkedin-square {
 	color: #0077B5;
@@ -55,38 +56,30 @@ a .fa-linkedin-square {
 a .fa-twitter {
 	color: #00aced;
 }
-
 .fa-twitter {
 	margin-right: 10px;
 }
-
 li {
 	padding-top: 3px;
 	padding-bottom:3px;
 }
-
+/*responsive styling*/
  @media only screen and (max-width: 640px)
  {
-
 body {
 	padding-left:0;
 	margin:10px;
-	font-size: 16px;
 }
-
 .intro {
 	font-size: 20px;
 }
-
 .email {
-	font-size: 27px;
+	font-size: 30px;
 }
-
 }
-
+/*no display quote on small screens*/
 @media only screen and (max-width:745px)
  {
-
 body {
 	width: 95%;
 }
@@ -94,7 +87,7 @@ body {
 	display:none!important;
 }
 }
-
+/*quote styling*/
 .quotes {
 	padding: 0;
 }
@@ -118,8 +111,36 @@ blockquote p span {
 	bottom: 10px;
 	padding-right: 10px;
 }
-
-img {
-	padding-top: 40px;
-	width: 80%;
+/*image on hover*/
+.hover-image {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+.hover-image:hover {
+	cursor: help;
+}
+#me, #mobile-me {
+	display: none;
+  border-radius: 50%;
+  width:25%;
+}
+.hover-image:hover + #me{
+    display:block;
+    position:fixed;
+    overflow:hidden;
+}
+@media only screen and (max-width:745px)
+ {
+.hover-image {
+	border:none;
+}
+.hover-image:hover + #me{
+display:none;
+}
+#mobile-me {
+	display:block;
+	width: 70%;
+}
 }

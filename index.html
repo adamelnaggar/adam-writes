@@ -21,13 +21,14 @@
 <body>
 
 <center>
+<img src="me.jpg" alt="It's me, Adam El-Naggar, your new freelance writer!" id="mobile-me">
 <div class="intro">
-	<h1>Hello. I’m Adam.</h1>
+	<h1>Hello. I’m <span class="hover-image">Adam</span>.<img src="me.jpg" alt="It's me, Adam El-Naggar, your new freelance writer!" id="me"></h1>
 </div>
 </center>
 
 <p>
-I can help your lifestyle business build a genuine connection with its audience, by writing thoroughly researched and engaging content. Sound good? <a href="mailto:hello@adamwrites.co">Say hello!</a>
+I can help your lifestyle business build a genuine connection with its audience, by writing thoroughly researched and engaging content. Sound good? <a href="#hello">Say hello!</a>
 </p>
 
 <div>
@@ -46,7 +47,7 @@ I’ve worked with some great people, like
 </div>
 
 <div class="publications">
-I've <!--And-->written for some awesome publications, like <a class="blue"href="https://medium.com/personal-growth"target="_blank">Personal Growth</a>, <a class="blue"href="https://writingcooperative.com/"target="_blank">The Writing Co-operative</a>, and <a class="blue"href="http://www.theinertia.com/"target="_blank">The Inertia</a>.
+I've <!--And-->written for some awesome publications, like <a href="https://medium.com/personal-growth"target="_blank">Personal Growth</a>, <a href="https://writingcooperative.com/"target="_blank">The Writing Co-operative</a>, and <a href="http://www.theinertia.com/"target="_blank">The Inertia</a>.
 </div>
 
 <div class="testimonials">
@@ -64,20 +65,20 @@ Some people have said some nice things about me:
 <div class="clips">
 Here are some examples of my writing:
 <ul class="writing-examples">
-<li><a class="blue"href="https://medium.com/personal-growth/write-like-nobodys-reading-42a105b72f3"target="_blank">Write Like Nobody's Reading</a></li>
-<li><a class="blue"href="https://northseasurfshots.co.uk/blog/is-the-water-cold"target="_blank">Is the Water Cold?</a></li>
-<li><a class="blue"href="https://medium.com/personal-growth/why-paper-books-will-never-die-9c89f43f7811"target="_blank">Why Paper Books Will Never Die</a></li>
-<li><a class="blue"href="http://www.theinertia.com/surf/capturing-the-cold-beautiful-gems-of-scotland/"target="_blank">Capturing the Cold Beautiful Gems of Scotland</a></li>
-<li><a class="blue"href="https://northseasurfshots.co.uk/blog/surf-snowdonia-trip-report"target="_blank">I Surf in the Mountains</a></li>
+<li><a href="https://medium.com/personal-growth/write-like-nobodys-reading-42a105b72f3"target="_blank">Write Like Nobody's Reading</a></li>
+<li><a href="https://northseasurfshots.co.uk/blog/is-the-water-cold"target="_blank">Is the Water Cold?</a></li>
+<li><a href="https://medium.com/personal-growth/why-paper-books-will-never-die-9c89f43f7811"target="_blank">Why Paper Books Will Never Die</a></li>
+<li><a href="http://www.theinertia.com/surf/capturing-the-cold-beautiful-gems-of-scotland/"target="_blank">Capturing the Cold Beautiful Gems of Scotland</a></li>
+<li><a href="https://northseasurfshots.co.uk/blog/surf-snowdonia-trip-report"target="_blank">I Surf in the Mountains</a></li>
 </ul>
 </div>
 
 <p>
-When I’m not writing, I run a little <a class="blue" href="https://northseasurfshots.co.uk" target="_blank">surf photography business</a>. Before that, I fought crime in the Police and saved lives as a lifeguard. If you’ve watched Baywatch, you know what I’m talking about.. you can have a look at my C.V. <a href="https://www.dropbox.com/s/td81mcym3s3z6ig/cv-adamwrites.pdf?dl=0" target="_blank">here</a>.
+When I’m not writing, I run a <a href="https://northseasurfshots.co.uk" target="_blank">surf photography business</a>. Before that, I fought crime in the Police and saved lives as a lifeguard. If you’ve watched Baywatch, you know what I’m talking about.. have a look at my <a href="https://www.dropbox.com/s/td81mcym3s3z6ig/cv-adamwrites.pdf?dl=0" target="_blank">C.V.</a>
 </p>
 
 <p>
-I’m based in Aberdeen, Scotland, so if I’m not driving around the Scottish coastline looking for waves, you’ll find me doing the same thing in Fuerteventura!
+I’m based in Aberdeen, Scotland. If I’m not driving around the Scottish coastline looking for waves, you’ll find me doing the same thing in Fuerteventura!
 </p>
 
 <p>
@@ -85,7 +86,7 @@ Do you need regular writing to stay connected to your customers, but don’t hav
 </p>
 
 <center>
-<div class="email">
+<div class="email" id="hello">
 	<a href="mailto:hello@adamwrites.co">hello@adamwrites.co</a>
 </div>
 
@@ -94,8 +95,10 @@ Do you need regular writing to stay connected to your customers, but don’t hav
 	<a href="https://linkedin.com/in/adamelnaggar" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 </div>
 
-<img src="me.jpg" alt="It's me, Adam El-Naggar, your new freelance writer!">
 </center>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="moveimage.js"></script>
 
 </body>
 </html>
