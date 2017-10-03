@@ -25,6 +25,10 @@ a {
 	border-bottom:none;
 	font-style:normal;
 	font-family: 'Lato', sans-serif;
+	transition: color 0.2s ease-in-out 0.1s;
+}
+.email a:hover {
+	color: #ff8800;
 }
 .social a {
 	border-bottom: none;
