@@ -14,29 +14,22 @@ div, p {
 	padding-top: 30px;
 }
 a {
-	border-bottom: 2px solid #FF6138;
-	color: #18bff7;
 	text-decoration: none;
 	font-style:italic;
 }
 .email a {
-	color: #FF6138;
-	text-decoration: underline;
-	border-bottom:none;
 	font-style:normal;
 	font-family: 'Lato', sans-serif;
-	transition: color 0.2s ease-in-out 0.1s;
-}
-.email a:hover {
-	color: #ff8800;
-}
-.social a {
-	border-bottom: none;
 }
 .intro {
 	font-family: 'Lato', sans-serif;
 	font-size: 35px;
-	color: #18bff7;
+	color: #666;
+}
+h1 span {
+		background: linear-gradient(120deg, #84fab0 0%, #18bff7 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 h1, .email {
 	font-weight: 900!important;
@@ -49,7 +42,7 @@ h1, .email {
 	display: none;
 }
 .fa {
-	font-size: 30px!important;
+	font-size: 25px!important;
 }
 .social {
 	padding-top: 60px;
@@ -117,8 +110,6 @@ blockquote p span {
 }
 /*image on hover*/
 .hover-image {
-  border-bottom: 1px dotted;
-  text-decoration: none;
   color: inherit;
   position: relative;
 }
@@ -147,4 +138,20 @@ display:none;
 	display:block;
 	width: 70%;
 }
+}
+a {
+  color: #666;
+  background-image: linear-gradient(120deg, #84fab0 0%, #18bff7 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  border: none;
+}
+a:hover {
+  background-size: 100% 88%;
+}
+.social a {
+	background-image: none;
+	padding:10px;
 }
