@@ -104,6 +104,8 @@ li {
 .projects-wrapper {
 	text-align:center;
 }
+.case-study-splash {
+	background-attachment: scroll!important;
 }
 /*quote styling*/
 .quotes {
