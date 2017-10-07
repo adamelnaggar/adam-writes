@@ -1,12 +1,3 @@
-var hoverImage = document.getElementById('me');
-
-window.onmousemove = function (e) {
-    var x = e.clientX,
-        y = e.clientY;
-    hoverImage.style.top = (y + 20) + 'px';
-    hoverImage.style.left = (x + 20) + 'px';
-};
-
 $(document).ready(function(){
 $('a[href*="#"]')
   .not('[href="#"]')
