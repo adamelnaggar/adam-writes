@@ -351,13 +351,13 @@ header{
 	top:0;
 	left: 0;
 	right: 0;
-	font-size: 10px;
+	font-size: 15px;
 	font-family: 'Lato', sans-serif;
 	font-weight: normal!important;
 	color:#888;
 }
 .inaction a i {
-	font-size: 15px!important;
+	font-size: 18px!important;
 }
 .inaction a {
 	padding-left: 5px;
@@ -378,7 +378,7 @@ header{
 	text-align: left;
 }
 .image-caption {
-		font-size: 12px;
+		font-size: 15px;
 		font-family:'Lato', sans-serif;
 	font-weight: normal!important;
 	line-height: normal;
