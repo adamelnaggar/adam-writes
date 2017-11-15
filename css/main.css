@@ -12,9 +12,10 @@ div, p {
 	margin: 0;
 	width: 70%;
 	margin: auto;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 	padding-top: 60px;
 	position: relative;
+	max-width:960px;
 }
 a {
 	text-decoration: none;
@@ -38,12 +39,33 @@ h1 span {
 h1, .email {
 	font-weight: 900!important;
 }
+.hello {
+	margin-bottom: 35px;
+}
+.titles {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #999;
+	margin: 0;
+	padding: 0;
+}
+.headings {
+	font-size: 20px;
+	font-weight:normal;
+	margin: 0;
+}
+.client-logos {
+	display: inline;
+	max-height: 150px;
+	max-width: 300px;
+}
+.abdn {
+	max-width: 100px;
+}
 .email {
 	padding-top: 60px;
 	font-size: 55px;
-}
-.testimonials, .clients {
-	display: none;
 }
 .fa {
 	font-size: 25px!important;
@@ -51,18 +73,34 @@ h1, .email {
 .social {
 	padding-top: 60px;
 }
+.source {
+	font-size: 80%;
+}
 a .fa-linkedin-square {
 	color: #0077B5;
 }
 a .fa-twitter {
 	color: #00aced;
 }
-a[href*="twitter"] {
-	margin-right:15px;
+.social a .fa {
+	padding: 0 10px 0 10px;
+}
+.social a {
+	margin: 0 12px 0 12px;
 }
 li {
 	padding-top: 3px;
 	padding-bottom:3px;
+}
+.pricing {
+	font-size: 80%;
+}
+.pricing p {
+	padding-top: 10px;
+	margin-top:10px;
+}
+.pricing p span {
+	font-style: italic;
 }
 /*responsive styling*/
  @media only screen and (max-width: 640px)
@@ -82,6 +120,9 @@ li {
 .youlike {
 	font-size: 22px;
 	font-size: 4vw;
+}
+.titles {
+	font-size: 12px;
 }
 .contact a {
 		font-size:30px!important;
@@ -335,12 +376,12 @@ header{
 .share__link {
 	background: none;
 	text-shadow: 0px 4px 2px rgba(50, 50, 90, 0.1);
-	margin: 0!important;
-	padding: 5px;
 }
 .share__link i {
 	font-size: 20px!important;
 	color: #999;
+	padding: 5px;
+	margin: 0;
 }
 .inaction {
 	margin: 0;
@@ -397,4 +438,80 @@ header{
 }
 .double-caption img {
 	max-width: 100%;
+}
+.flag {
+	width: 16px;
+	position: relative;
+	top: 2px;
+	margin: 0 2px 0 2px;
+}
+.location, .location p {	
+	padding: 0;
+	margin: 0;
+}
+.location p {
+	font-size: 10px;
+	color: #888;
+	font-family:'Lato', sans-serif;
+	text-align: center;
+	margin-bottom: 10px;
+}
+/*checkboxes*/
+.round {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  float: right;
+  right: 3px;
+  border-radius: 50%;
+  margin-top:5px;
+}
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 6px;
+  opacity: 0;
+  position: absolute;
+  top: 7px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+.round input[type="checkbox"]:checked + label {
+  background-color: #73e29c;
+  border-color: #73e29c;
+}
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+.published-page, .published-page h3 {
+	font-size: 16px;
+}
+.back-home {
+	font-size: 30px;
+}
+.displaynone {
+	display: none;
+}
+.intense {
+cursor: url('../images/plus_cursor.png') 25 25, auto;
+background-position: 0 0;
+background-size: cover;
+background-size: 100%;
 }
